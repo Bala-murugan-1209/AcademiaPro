@@ -1,0 +1,24 @@
+{
+  "name": "college-management-system",
+  "version": "1.0.0",
+  "description": "Full-Stack College Management Platform with Admin, Faculty, and Student Portals",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "build:client": "npm --prefix client run build"
+  },
+  "keywords": [
+    "college-management",
+    "mern",
+    "react",
+    "express",
+    "mongodb",
+    "attendance",
+    "examinations"
+  ],
+  "author": "",
+  "license": "ISC"
+}
